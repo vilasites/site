@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply text-lg
+}
+#header{
+    border-bottom: 1px solid white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.projects img {
+    width: 100%;
+}
+#nav-mobile{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+#nav-mobile li{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.bg-primary {
+    background: #0F172A;
+}
+
+.bg-secondery {
+    background: #1E293B;
+}
+
+.bg-accent {
+    background: #7477FF;
+}
+.about-img{
+    width: 80%;
+    margin-left: auto;
+    margin: 0 auto;
+}
+.about-img img {
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.about-info{
+    margin-bottom: 50px;
+}
+.hero-img{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 80%;
+}
+.text-accent {
+    color: #7477FF;
+}
+.relative{
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.relative img{
+    height: 275px;
+    max-width: 450px;
+    width: 100%;
+}
+
+nav li a {
+    @apply px-4 py-5 text-lg;
+}
+
+nav li a:hover {
+    color: #7477FF;
+}
+
+.mobile-nav {
+    @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    line-height: 1.5 !important;
+}
+
+#footer {
+    border: 1px solid white;
+}
+
+
