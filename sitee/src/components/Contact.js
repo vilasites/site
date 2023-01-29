@@ -8,7 +8,7 @@ const Contact = () => {
           Contatos
         </h2>
         <p>
-          Entre em contato conosco caso queria tirar dúvidas ou fazer um orçamento.
+          Entre em contato conosco caso queira tirar dúvidas ou fazer um orçamento.
         </p>
         <p className="py-2">
           <span className="font-bold">Email:</span> vilasites1@gmail.com
